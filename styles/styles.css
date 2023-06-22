@@ -65,10 +65,21 @@ main {
     padding-bottom: 50px;
 }
 
+.video-container {
+    padding: 20px;
+}
+
 .video-element {
     position: relative;
     padding-bottom: 56.25%;
     height: 0; 
+    z-index: auto;
+    transition: transform 0.2s ease;
+}
+
+.video-element:hover {
+    transform: scale(1.02);
+    z-index: 1;
 }
 
 .video-element iframe{
@@ -77,23 +88,6 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.img-overlay {
-    visibility: visible;
-    z-index: 1;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.img-overlay img {
-    width: 100%;
-    height: 100%;
-}
-  
-.video-container:hover .img-overlay {
-    visibility: hidden; 
 }
 
 .container p {
