@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import PortfolioGrid from "./PortfolioGrid.js";
+import PortfolioGrid from "./Portfolio.js";
 import PortfolioItem from "./PortfolioItem.js";
 
 function App() {
