@@ -1,6 +1,7 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import {useState} from "react";
-import portfolioData from "./portfolioData.json";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { useState } from "react"
+import portfolioData from "./portfolioData.json"
+import Switch from "./components/Switch.js"
 import ItemPreview from "./ItemPreview.js"
 
 function PortfolioGrid() {
@@ -13,6 +14,9 @@ function PortfolioGrid() {
 
   return (
     <div className="portfolio">
+      <Switch />
+
+
       <div className="filterButtons">
         {allTags.map(tag => (
           <button className="filterButton" key={tag} onClick={() => setSelectedTag(prevTag => prevTag === tag ? null : tag)}>
@@ -33,7 +37,7 @@ function PortfolioGrid() {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default PortfolioGrid;
