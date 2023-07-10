@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom"
 
 function ItemPreview({ item }) {
+  let src = `assets/thumbnails/${item.thumbnail}`
+
   return (
     <div key={item.id}>
-      <img src={item.image} alt={item.title} />
+      <img src={src} alt={item.title} />
       <h2>{item.title}</h2>
       <p>{item.description}</p>
       <p>{item.tags}</p>

@@ -2,22 +2,33 @@
     {
         "id": 1,
         "tags": ["music", "sound_design"],
-        "title": "Demo Reel 2023",
-        "description": "I did more things!!!!!!1",
-        "image": "logo192.png"
+        "title": "Send Me Home",
+        "description": "First Happy Face Favtory album",
+        "thumbnail": "send_me_home.jpg",
+        "image": ""
     },
     {
         "id": 2,
         "tags": ["sound_design"],
-        "title": "Demo Reel 2022",
-        "description": "I did more things!!!!!!1",
-        "image": "logo192.png"
+        "title": "Round Senior",
+        "description": "Second Happy face factory album",
+        "thumbnail": "Round_senior.jpg",
+        "image": ""
     },
     {
         "id": 3,
         "tags": ["software"],
-        "title": "Demo Reel 2021",
-        "description": "I did more things!!!!!!1",
-        "image": "logo192.png"
+        "title": "Robeland",
+        "description": "Third Happy face factory album",
+        "thumbnail": "robeland.jpg",
+        "image": ""
+    },
+    {
+        "id": 4,
+        "tags": ["music"],
+        "title": "The Garden",
+        "description": "Fourth Happy face factory album",
+        "thumbnail": "the_garden.jpg",
+        "image": ""
     }
 ]
