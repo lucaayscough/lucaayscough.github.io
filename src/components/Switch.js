@@ -1,11 +1,15 @@
 import { useState } from 'react'
 import "./Switch.css"
 
-const Switch = ({ isToggled, onToggle }) => {
+const Switch = ({ id, isToggled, onToggle }) => {
   return (
     <label className="switch">
       <input type="checkbox" checked={isToggled} onChange={onToggle} />
-      <span className="slider" />
+
+      <span className="tag">
+        {id}
+        {isToggled}
+      </span>
     </label>
   )
 }

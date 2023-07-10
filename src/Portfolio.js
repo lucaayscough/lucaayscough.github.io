@@ -1,43 +1,22 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import { useState } from "react"
 import portfolioData from "./portfolioData.json"
-import Switch from "./components/Switch.js"
-import ItemPreview from "./ItemPreview.js"
+import PortfolioGrid from "./PortfolioGrid.js"
+import Tags from "./Tags.js"
 
-function PortfolioGrid() {
-  let [selectedTag, setSelectedTag] = useState(null);
-  const allTags = [...new Set(portfolioData.flatMap(item => item.tags))];
+function Portfolio() {
+  const [selectedTags, setSelectedTags] = useState([])
+  const allTags = [...new Set(portfolioData.flatMap(item => item.tags))]
 
-  const itemsToShow = selectedTag 
-    ? portfolioData.filter(item => item.tags.includes(selectedTag))
-    : portfolioData;
+  const itemsToShow = selectedTags.length > 0
+    ? portfolioData.filter(item => item.tags.some(tag => selectedTags.includes(tag)))
+    : portfolioData
 
   return (
     <div className="portfolio">
-      <Switch />
-
-
-      <div className="filterButtons">
-        {allTags.map(tag => (
-          <button className="filterButton" key={tag} onClick={() => setSelectedTag(prevTag => prevTag === tag ? null : tag)}>
-            {tag}
-          </button>
-        ))}
-      </div>
-      
-      <div className="portfolioGrid">
-        {itemsToShow.map(item => (
-          <div key={item.id}>
-            <img src={item.image} alt={item.title} />
-            <h2>{item.title}</h2>
-            <p>{item.description}</p>
-
-            <Link to={`/portfolio/${item.id}`}>More details</Link>
-          </div>
-        ))}
-      </div>
+      <Tags allTags={allTags} selectedTags={selectedTags} setSelectedTags={setSelectedTags} />
+      <PortfolioGrid itemsToShow={itemsToShow} />
     </div>
   )
 }
 
-export default PortfolioGrid;
+export default Portfolio

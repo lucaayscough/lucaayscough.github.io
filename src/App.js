@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import PortfolioGrid from "./Portfolio.js";
+import Portfolio from "./Portfolio.js";
 import PortfolioItem from "./PortfolioItem.js";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <h1><center><Link to="/">Home</Link></center></h1>
 
       <Routes>
-        <Route path="/" element={<PortfolioGrid />} />
+        <Route path="/" element={<Portfolio />} />
         <Route path="/Portfolio/:id" element={<PortfolioItem />} />
       </Routes>
     </BrowserRouter>

@@ -1,8 +1,8 @@
 .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    width: 180px;
+    height: 60px;
     background-color: red;
 }
 
@@ -12,7 +12,7 @@
     height: 0;
 }
 
-.slider {
+.tag {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -22,17 +22,6 @@
     background-color: grey;
 }
 
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: 0.4s;
-}
-
-input:checked + .slider:before {
-    transform: translateX(26px);
+input:checked + .tag {
+    background-color: blue;
 }
