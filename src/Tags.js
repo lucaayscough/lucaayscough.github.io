@@ -13,7 +13,7 @@ function Tags({ allTags, selectedTags, setSelectedTags }) {
               prevTags.includes(tag)
                 ? prevTags.filter(t => t !== tag)
                 : [...prevTags, tag]
-              )
+            )
           }
         />
       ))}
