@@ -5,12 +5,16 @@ function ItemPreview({ item }) {
 
   return (
     <div key={item.id} className="itemPreview">
-      <img src={src} alt={item.title} />
-      <h2>{item.title}</h2>
-      <p>{item.description}</p>
-      <p>{item.tags}</p>
+      <Link to={`/portfolio/${item.id}`}>
+        <img src={src} alt={item.title} />
 
-      <Link to={`/portfolio/${item.id}`}>More details</Link>
+        <div className="previewInfo">
+          <h2>{item.title}</h2>
+          <p>{item.description}</p>
+          <p>{item.tags}</p>
+          
+        </div>
+      </Link>
     </div> 
   )
 }
