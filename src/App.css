@@ -61,9 +61,8 @@ a {
     justify-content: center;
     color: var(--color-light);
     transition: color 0.1s ease;
-    font-family: 'Neue Haas Grotesk Display Pro 55 Roman';
-    font-size: 1.25em;
-
+    font-family: 'Neue Haas Grotesk Display Pro 65 Medium';
+    font-size: 1.1em;
 }
 
 .tag:hover {
