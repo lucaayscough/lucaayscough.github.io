@@ -8,8 +8,6 @@ function App() {
   return(
     <main>
       <BrowserRouter>
-        <h1><center><Link to="/">LUCA AYSCOUGH</Link></center></h1>
-
         <Routes>
           <Route path="/" element={<Portfolio />} />
           <Route path="/Portfolio/:id" element={<PortfolioItem />} />

@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import portfolioData from "./portfolioData.json"
 import "./PortfolioItem.css"
 
@@ -9,8 +9,16 @@ function PortfolioItem() {
 
   return(
     <div className="portfolioItem">
-      <img src={src} alt={item.title} />
-      <h2>{item.title.toUpperCase()}</h2>
+      <div className="home"><Link to="/">HOME</Link></div>
+
+      <div className="banner">
+        <div className="title">
+          <h1>{item.title.toUpperCase()}</h1>
+        </div>
+        <div className="img">
+          <img src={src} alt={item.title} />
+        </div>
+      </div>
       <p className="description">
         {item.description}
       </p>

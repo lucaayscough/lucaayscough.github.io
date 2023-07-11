@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 import portfolioData from "./portfolioData.json"
 import PortfolioGrid from "./PortfolioGrid.js"
 import Tags from "./Tags.js"
@@ -14,6 +15,8 @@ function Portfolio() {
 
   return (
     <div className="portfolio">
+      <h1><Link to="/">LUCA AYSCOUGH</Link></h1> 
+
       <Tags allTags={allTags} selectedTags={selectedTags} setSelectedTags={setSelectedTags} />
       <PortfolioGrid itemsToShow={itemsToShow} />
     </div>

@@ -5,6 +5,71 @@
     flex-direction: column;
 }
 
+.home{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: var(--inactive-link);
+    width: 100px;
+    height: 60px;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--color-dark);
+}
+
+.title {
+    width: 54%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-light);
+    font-size: 2rem;
+}
+
+.img {
+    width: 46%;
+}
+
+img {
+    width: 100%;
+    display: flex;
+}
+
+@media (max-width: 900px) {
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+        height: 600px;
+    }
+
+    .title {
+        width: 100%;
+        height: 33.33%;
+    }
+    
+    .img {
+        width: 100%;
+        height: 76.77%;
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: auto;
+        height: 100%;
+    }
+}
+
 .description {
     width: 70ch;
 }
