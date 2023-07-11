@@ -1,0 +1,10 @@
+.portfolioItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description {
+    width: 70ch;
+}

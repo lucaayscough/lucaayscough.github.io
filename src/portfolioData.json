@@ -1,11 +1,13 @@
 [
     {
         "id": 1,
-        "tags": ["music", "sound_design"],
+        "tags": ["music", "sound_design", "software", "games", "film", "animations"],
         "title": "Send Me Home",
         "description": "First Happy Face Favtory album",
         "thumbnail": "send_me_home.jpg",
-        "image": ""
+        "image": "",
+        "role": "",
+        "date": ""
     },
     {
         "id": 2,
@@ -13,7 +15,9 @@
         "title": "Round Senior",
         "description": "Second Happy face factory album",
         "thumbnail": "Round_senior.jpg",
-        "image": ""
+        "image": "",
+        "role": "",
+        "date": ""
     },
     {
         "id": 3,
@@ -21,7 +25,9 @@
         "title": "Robeland",
         "description": "Third Happy face factory album",
         "thumbnail": "robeland.jpg",
-        "image": ""
+        "image": "",
+        "role": "",
+        "date": ""
     },
     {
         "id": 4,
@@ -29,6 +35,8 @@
         "title": "The Garden",
         "description": "Fourth Happy face factory album",
         "thumbnail": "the_garden.jpg",
-        "image": ""
+        "image": "",
+        "role": "",
+        "date": ""
     }
 ]
