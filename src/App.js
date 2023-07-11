@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import "./styles/fonts.css"
 import "./App.css"
 import Portfolio from "./Portfolio.js"
 import PortfolioItem from "./PortfolioItem.js"

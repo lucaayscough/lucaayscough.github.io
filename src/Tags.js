@@ -2,7 +2,7 @@ import Switch from "./Switch.js"
 
 function Tags({ allTags, selectedTags, setSelectedTags }) {
   return (
-    <div className="tags">
+    <nav className="tags">
       {allTags.map(tag => (
         <Switch
           className="filterSwitch"
@@ -17,7 +17,7 @@ function Tags({ allTags, selectedTags, setSelectedTags }) {
           }
         />
       ))}
-    </div>
+    </nav>
   )
 }
 

@@ -3,24 +3,20 @@
     margin: 0;
 }
 
-main {
-
-}
-
 .portfolio {
     padding: 3rem;
 }
 
 .tags {
-    
+    display: flex;
+    margin-bottom: 3em;
 }
 
 .switch {
     position: relative;
     display: inline-block;
-    width: 180px;
+    width: 100%;
     height: 60px;
-    background-color: red;
 }
 
 .switch input {
@@ -36,7 +32,9 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: grey;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 
 input:checked + .tag {
