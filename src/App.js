@@ -8,7 +8,7 @@ function App() {
   return(
     <main>
       <BrowserRouter>
-        <h1><center><Link to="/">Home</Link></center></h1>
+        <h1><center><Link to="/">HOME</Link></center></h1>
 
         <Routes>
           <Route path="/" element={<Portfolio />} />
