@@ -2,7 +2,7 @@ import Switch from "./Switch.js"
 
 function Tags({ allTags, selectedTags, setSelectedTags }) {
   return (
-    <div className="switches">
+    <div className="tags">
       {allTags.map(tag => (
         <Switch
           className="filterSwitch"
