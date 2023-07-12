@@ -5,6 +5,8 @@
     --color-dark-2: #212429;
     --color-inactive: #476C9B;
     --color-active: #B25C4E;
+
+    --opacity-const: 0.667;
 }
 
 * {
@@ -26,7 +28,7 @@ h1 {
 
 a {
     color: var(--color-light);
-    opacity: 0.67;
+    opacity: var(--opacity-const);
     text-decoration: none;
     transition: opacity 0.3s ease;
 }

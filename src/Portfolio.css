@@ -27,12 +27,11 @@
 .tag {
     position: absolute;
     cursor: pointer;
-
     color: var(--color-light);
     transition: opacity 0.3s ease;
     font-family: 'Neue Haas Grotesk Display Pro 65 Medium';
     font-size: 1rem;
-    opacity: 0.67;
+    opacity: var(--opacity-const);
 }
 
 .tag:hover {
