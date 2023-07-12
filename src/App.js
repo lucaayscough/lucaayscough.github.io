@@ -1,19 +1,24 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "./styles/fonts.css"
 import "./App.css"
+import Header from "./Header.js"
+import Home from "./Home.js"
 import Portfolio from "./Portfolio.js"
 import PortfolioItem from "./PortfolioItem.js"
 
 function App() {
   return(
-    <main>
-      <BrowserRouter>
+    <BrowserRouter>
+      <Header />
+
+      <main>
         <Routes>
-          <Route path="/" element={<Portfolio />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
           <Route path="/Portfolio/:id" element={<PortfolioItem />} />
         </Routes>
-      </BrowserRouter>
-    </main>
+      </main>
+    </BrowserRouter>
   )
 }
 

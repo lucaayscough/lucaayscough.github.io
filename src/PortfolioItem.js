@@ -9,7 +9,7 @@ function PortfolioItem() {
 
   return(
     <div className="portfolioItem">
-      <div className="home"><Link to="/">HOME</Link></div>
+      <div className="homeButton"><Link to="/">HOME</Link></div>
 
       <div className="banner">
         <div className="title">

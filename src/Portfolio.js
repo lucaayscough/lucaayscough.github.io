@@ -15,8 +15,6 @@ function Portfolio() {
 
   return (
     <div className="portfolio">
-      <h1><Link to="/">LUCA AYSCOUGH</Link></h1> 
-
       <Tags allTags={allTags} selectedTags={selectedTags} setSelectedTags={setSelectedTags} />
       <PortfolioGrid itemsToShow={itemsToShow} />
     </div>
