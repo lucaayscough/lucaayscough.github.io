@@ -6,11 +6,7 @@ const Switch = ({ id, isToggled, onToggle }) => {
       <input type="checkbox" checked={isToggled} onChange={onToggle} />
 
       <span className="tag">
-        <div className="tagNameContainer">
-          <div className="tagName">
-            {id.replace("_", " ").toUpperCase()}
-          </div>
-        </div>
+        {id.replace("_", " ").toUpperCase()}
       </span>
     </label>
   )
