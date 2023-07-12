@@ -38,11 +38,14 @@
 
 .img {
     width: 46%;
+    background-color: var(--color-dark);
+    padding: 2rem;
 }
 
 img {
     width: 100%;
     display: flex;
+    border-radius: 0.75rem;;
 }
 
 @media (max-width: 900px) {
@@ -62,6 +65,7 @@ img {
         height: 76.77%;
         display: flex;
         justify-content: center;
+        padding: 0;
     }
 
     img {
