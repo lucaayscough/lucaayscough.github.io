@@ -9,10 +9,8 @@ function ItemPreview({ item }) {
         <img src={src} alt={item.title} />
 
         <div className="previewInfo">
-          <h2>{item.title}</h2>
-          <p>{item.description}</p>
-          <p>{item.tags}</p>
-          
+          <div className="itemTitle">{item.title}</div>
+          <div className="itemDescription">{item.description}</div>
         </div>
       </Link>
     </div> 

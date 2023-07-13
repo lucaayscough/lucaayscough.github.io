@@ -40,5 +40,14 @@
 }
 
 .previewInfo {
-    padding: 1.25rem;
+    padding: 1rem;
+}
+
+.itemTitle {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.itemDescription {
+    font-size: 1rem;
 }
