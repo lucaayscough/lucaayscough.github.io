@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 const Switch = ({ id, isToggled, onToggle }) => {
   return (
     <label className="switch">

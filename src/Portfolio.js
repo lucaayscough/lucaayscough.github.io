@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
 import portfolioData from "./portfolioData.json"
 import PortfolioGrid from "./PortfolioGrid.js"
 import Tags from "./Tags.js"
