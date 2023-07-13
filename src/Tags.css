@@ -1,6 +1,6 @@
 .tags {
     display: flex;
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
     background-color: var(--color-dark-2);
     border-radius: 0.75rem;
 }

@@ -3,20 +3,30 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 4rem;
+    padding: 4rem 3rem 3rem 3rem;
 }
 
 .nameHeader {
     font-family: "Neue Haas Grotesk Display Pro 75 Bold";
-    font-size: 3.5em;
+    font-size: 3.5rem;
 }
 
 .headerLinks {
-    padding-top: 2rem;
+    padding-top: 3rem;
     font-size: 1.4rem;
     font-family: 'Neue Haas Grotesk Display Pro 55 Roman';
 }
 
 .headerLink {
     margin: 0.75rem;
+}
+
+@media (max-width: 600px) {
+    .nameHeader {
+        font-size: 3rem;
+    }
+
+    .headerLinks {
+        font-size: 1.2rem;
+    }
 }

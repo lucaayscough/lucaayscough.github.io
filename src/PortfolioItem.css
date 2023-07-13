@@ -5,20 +5,6 @@
     flex-direction: column;
 }
 
-.homeButton {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: var(--inactive-link);
-    width: 100px;
-    height: 60px;
-    border-radius: 0.75rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 .banner {
     display: flex;
     flex-direction: row;

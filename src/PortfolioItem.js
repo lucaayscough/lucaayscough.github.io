@@ -9,8 +9,6 @@ function PortfolioItem() {
 
   return(
     <div className="portfolioItem">
-      <div className="homeButton"><Link to="/">HOME</Link></div>
-
       <div className="banner">
         <div className="title">
           <h1>{item.title.toUpperCase()}</h1>
