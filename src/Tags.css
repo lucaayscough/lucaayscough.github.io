@@ -55,3 +55,9 @@ input:checked + .tag::before {
     opacity: 1;
     left: -0.67rem;
 }
+
+@media (max-width: 1000px) {
+    .tags {
+        flex-direction: column;
+    }
+}
