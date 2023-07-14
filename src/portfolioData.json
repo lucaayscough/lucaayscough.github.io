@@ -1,42 +1,142 @@
 [
     {
         "id": 1,
-        "tags": ["music", "sound_design", "software", "games", "film", "animations"],
-        "title": "Send Me Home",
-        "description": "First Happy Face Favtory album",
-        "thumbnail": "send_me_home.jpg",
+        "tags": ["video_games","sound_design"],
+
+        "title": "Merchan Madness",
+        "brief": "Video game made for the GTMK 2023 game jam. Instead of the hero, you're the NPC.",
+        "description": "",
+
+        "thumbnail": "merchant_madness.png",
         "image": "",
+
         "role": "",
-        "date": ""
+        "year": ""
     },
     {
         "id": 2,
-        "tags": ["sound_design"],
-        "title": "Round Senior",
-        "description": "Second Happy face factory album",
-        "thumbnail": "Round_senior.jpg",
+        "tags": ["video_games","sound_design","animation"],
+
+        "title": "Unearthed",
+        "brief": "",
+        "description": "",
+
+        "thumbnail": "unearthed.jpg",
         "image": "",
+
         "role": "",
-        "date": ""
-    },
+        "year": ""
+    }, 
     {
         "id": 3,
-        "tags": ["software"],
-        "title": "Robeland",
-        "description": "Third Happy face factory album",
-        "thumbnail": "robeland.jpg",
+        "tags": ["video_games","sound_design","animation"],
+
+        "title": "Red'em All",
+        "brief": "",
+        "description": "",
+
+        "thumbnail": "red_em_all.jpg",
         "image": "",
+
         "role": "",
-        "date": ""
+        "year": ""
     },
     {
         "id": 4,
+        "tags": ["animation","music"],
+
+        "title": "Cairn",
+        "brief": "",
+        "description": "",
+
+        "thumbnail": "cairn.jpg",
+        "image": "",
+
+        "role": "",
+        "year": ""
+    },
+    {
+        "id": 5,
+        "tags": ["animation","music","sound_design"],
+
+        "title": "Blackwood",
+        "brief": "",
+        "description": "",
+
+        "thumbnail": "blackwood.jpg",
+        "image": "",
+
+        "role": "",
+        "year": ""
+    },
+    {
+        "id": 6,
+        "tags": ["film","sound_design","music"],
+
+        "title": "Stranger In A Train",
+        "brief": "Short film about abuse by film maker Angelica Arasi.",
+        "description": "",
+
+        "thumbnail": "stranger_in_a_train.jpg",
+        "image": "",
+
+        "role": "Composer, Sound Designer, Post-Production",
+        "year": "2022"
+    },
+    {
+        "id": 7,
         "tags": ["music"],
+
         "title": "The Garden",
-        "description": "Fourth Happy face factory album",
+        "brief": "Third single release by Italian duo Happy Face Factory.",
+        "description": "",
+
         "thumbnail": "the_garden.jpg",
         "image": "",
-        "role": "",
-        "date": ""
+
+        "role": "Songwriter, Producer",
+        "year": "2023"
+    },
+    {
+        "id": 8,
+        "tags": ["music"],
+
+        "title": "Robeland",
+        "brief": "Second single release by Italian duo Happy Face Factory.",
+        "description": "",
+
+        "thumbnail": "robeland.jpg",
+        "image": "",
+
+        "role": "Songwriter, Producer",
+        "year": "2021"
+    },
+    {
+        "id": 9,
+        "tags": ["music"],
+
+        "title": "Round Senior",
+        "brief": "First single release by Italian duo Happy Face Factory.",
+        "description": "",
+
+        "thumbnail": "round_senior.jpg",
+        "image": "",
+
+        "role": "Songwriter, Producer",
+        "year": "2020"
+    },
+    {
+        "id": 10,
+        "tags": ["music"],
+
+        "title": "Send Me Home",
+        "brief": "First album release by Italian duo Happy Face Factory.",
+        "description": "",
+
+        "thumbnail": "send_me_home.jpg",
+        "image": "",
+
+        "role": "Soongwriter, Producer",
+        "yers": "2018"
     }
 ]

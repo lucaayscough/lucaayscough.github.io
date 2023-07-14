@@ -17,6 +17,9 @@ function PortfolioItem() {
           <img src={src} alt={item.title} />
         </div>
       </div>
+      <div className="brief">
+        {item.brief}
+      </div>
       <div className="description">
         {item.description}
       </div>
