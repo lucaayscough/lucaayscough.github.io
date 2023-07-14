@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 
 function ItemPreview({ item }) {
-  let src = `assets/thumbnails/${item.thumbnail}`
+  const src = `assets/thumbnails/${item.thumbnail}`
 
   return (
     <div key={item.id} className="itemPreview">

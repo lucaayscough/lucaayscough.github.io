@@ -28,7 +28,7 @@
     padding: 2rem;
 }
 
-img {
+.img img {
     width: 100%;
     display: flex;
     border-radius: 0.75rem;;
@@ -54,7 +54,7 @@ img {
         padding: 0;
     }
 
-    img {
+    .img img {
         width: auto;
         height: 100%;
     }

@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import portfolioData from "./portfolioData.json"
 import "./PortfolioItem.css"
 
@@ -17,9 +17,9 @@ function PortfolioItem() {
           <img src={src} alt={item.title} />
         </div>
       </div>
-      <p className="description">
+      <div className="description">
         {item.description}
-      </p>
+      </div>
     </div>
   )
 }
