@@ -34,12 +34,12 @@
     border-radius: 0.75rem;;
 }
 
-.brief {
-    font-style: italic;
+.content {
+    max-width: 70ch;
 }
 
-.description {
-    max-width: 70ch;
+.brief {
+    font-style: italic;
 }
 
 @media (max-width: 1200px) {

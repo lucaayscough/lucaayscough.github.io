@@ -5,10 +5,9 @@
 
         "title": "Merchant Madness",
         "brief": "Video game made for the GTMK 2023 game jam. Instead of the hero, you're the NPC.",
-        "description": "",
+        "content": "",
 
         "thumbnail": "merchant_madness.png",
-        "image": "",
 
         "role": "",
         "year": ""
@@ -19,7 +18,7 @@
 
         "title": "Unearthed",
         "brief": "",
-        "description": "",
+        "content": "",
 
         "thumbnail": "unearthed.jpg",
         "image": "",
@@ -33,7 +32,7 @@
 
         "title": "Red'em All",
         "brief": "",
-        "description": "",
+        "content": "red_em_all.md",
 
         "thumbnail": "red_em_all.jpg",
         "image": "",
@@ -47,7 +46,7 @@
 
         "title": "Cairn",
         "brief": "",
-        "description": "",
+        "content": "",
 
         "thumbnail": "cairn.jpg",
         "image": "",
@@ -61,10 +60,9 @@
 
         "title": "Blackwood",
         "brief": "",
-        "description": "",
+        "content": "",
 
         "thumbnail": "blackwood.jpg",
-        "image": "",
 
         "role": "",
         "year": ""
@@ -75,10 +73,9 @@
 
         "title": "Stranger In A Train",
         "brief": "Short film about abuse by film maker Angelica Arasi.",
-        "description": "",
+        "content": "",
 
         "thumbnail": "stranger_in_a_train.jpg",
-        "image": "",
 
         "role": "Composer, Sound Designer, Post-Production",
         "year": "2022"
@@ -89,10 +86,9 @@
 
         "title": "The Garden",
         "brief": "Third single release by Italian duo Happy Face Factory.",
-        "description": "",
+        "content": "",
 
         "thumbnail": "the_garden.jpg",
-        "image": "",
 
         "role": "Songwriter, Producer",
         "year": "2023"
@@ -103,10 +99,9 @@
 
         "title": "Robeland",
         "brief": "Second single release by Italian duo Happy Face Factory.",
-        "description": "",
+        "content": "",
 
         "thumbnail": "robeland.jpg",
-        "image": "",
 
         "role": "Songwriter, Producer",
         "year": "2021"
@@ -117,10 +112,9 @@
 
         "title": "Round Senior",
         "brief": "First single release by Italian duo Happy Face Factory.",
-        "description": "",
+        "content": "",
 
         "thumbnail": "round_senior.jpg",
-        "image": "",
 
         "role": "Songwriter, Producer",
         "year": "2020"
@@ -131,10 +125,9 @@
 
         "title": "Send Me Home",
         "brief": "First album release by Italian duo Happy Face Factory.",
-        "description": "",
+        "content": "",
 
         "thumbnail": "send_me_home.jpg",
-        "image": "",
 
         "role": "Soongwriter, Producer",
         "yers": "2018"
