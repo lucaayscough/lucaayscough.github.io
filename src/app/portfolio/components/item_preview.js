@@ -11,7 +11,8 @@ function ItemPreview({ item }) {
 
         <div className="previewInfo">
           <div className="itemTitle">{item.title}</div>
-          <div className="itemDescription">{item.brief}</div>
+          <div className="itemBrief">{item.brief}</div>
+          <div className="itemFooter">{item.client} • {item.year}</div>
         </div>
       </Link>
     </div> 

@@ -35,8 +35,15 @@
 
 }
 
-.itemDescription {
+.itemBrief {
     font-size: 1.15rem;
     padding-bottom: 0.5rem;
     opacity: var(--opacity-const);
+    padding-bottom: 1rem;;
+}
+
+.itemFooter {
+    font-size: 0.75rem;
+    opacity: var(--opacity-const);
+    font-style: italic;
 }
