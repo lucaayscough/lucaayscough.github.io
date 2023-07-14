@@ -2,12 +2,13 @@
     background-color: var(--color-dark-2);
     border-radius: 0.75rem;
     overflow: hidden;
-    opacity: var(--opacity-const);
-    transition: opacity 0.3s ease;
+    opacity: 0.95;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .itemPreview:hover {
     opacity: 1;
+    transform: scale(1.01);
 }
 
 .itemPreview img {

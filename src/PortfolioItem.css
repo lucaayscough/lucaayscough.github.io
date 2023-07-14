@@ -34,6 +34,16 @@
     border-radius: 0.75rem;;
 }
 
+.description {
+    max-width: 70ch;
+}
+
+@media (max-width: 1200px) {
+    .title {
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-width: 900px) {
     .banner {
         flex-direction: column;
@@ -60,6 +70,3 @@
     }
 }
 
-.description {
-    width: 70ch;
-}
