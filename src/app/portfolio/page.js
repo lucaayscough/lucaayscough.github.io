@@ -2,9 +2,9 @@
 
 import { useState } from "react"
 import portfolioData from "./portfolioData.json"
-import PortfolioGrid from "./PortfolioGrid.js"
-import Tags from "./Tags.js"
-import "./Portfolio.css"
+import PortfolioGrid from "./components/portfolio_grid.js"
+import Tags from "./components/tags.js"
+import "./page.css"
 
 function Portfolio() {
   const [selectedTags, setSelectedTags] = useState([])

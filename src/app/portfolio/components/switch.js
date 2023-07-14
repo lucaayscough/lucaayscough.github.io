@@ -1,4 +1,4 @@
-import "./Switch.css"
+import "./switch.css"
 
 const Switch = ({ id, isToggled, onToggle }) => {
   return (

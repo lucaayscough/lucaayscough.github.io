@@ -1,5 +1,5 @@
-import Switch from "./Switch.js"
-import "./Tags.css"
+import Switch from "./switch.js"
+import "./tags.css"
 
 function Tags({ allTags, selectedTags, setSelectedTags }) {
   return (

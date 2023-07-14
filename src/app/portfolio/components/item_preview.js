@@ -1,5 +1,5 @@
 import Link from "next/link"
-import "./ItemPreview.css"
+import "./item_preview.css"
 
 function ItemPreview({ item }) {
   const src = `assets/thumbnails/${item.thumbnail}`

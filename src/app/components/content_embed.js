@@ -1,4 +1,4 @@
-import "./ContentEmbed.css"
+import "./content_embed.css"
 
 function ContentEmbed({ url }) {
   return (

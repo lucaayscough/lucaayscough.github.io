@@ -1,4 +1,4 @@
-import ItemPreview from "./ItemPreview.js"
+import ItemPreview from "./item_preview.js"
 
 function PortfolioGrid({ itemsToShow }) {
   return (
