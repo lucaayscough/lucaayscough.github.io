@@ -19,35 +19,3 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
-
-.itemPreview {
-    background-color: var(--color-dark-2);
-    border-radius: 0.75rem;
-    overflow: hidden;
-    opacity: var(--opacity-const);
-    transition: opacity 0.3s ease;
-}
-
-.itemPreview:hover {
-    opacity: 1;
-}
-
-.itemPreview img {
-    border-radius: 0;
-    height: auto;
-    width: 100%;
-    object-fit: cover;
-}
-
-.previewInfo {
-    padding: 1rem;
-}
-
-.itemTitle {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
-}
-
-.itemDescription {
-    font-size: 1rem;
-}

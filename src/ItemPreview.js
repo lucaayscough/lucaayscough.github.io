@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import "./ItemPreview.css"
 
 function ItemPreview({ item }) {
   const src = `assets/thumbnails/${item.thumbnail}`
