@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import Link from "next/link"
 import "./ItemPreview.css"
 
 function ItemPreview({ item }) {
@@ -6,7 +6,7 @@ function ItemPreview({ item }) {
 
   return (
     <div key={item.id} className="itemPreview">
-      <Link to={`/portfolio/${item.id}`}>
+      <Link href={`/portfolio/${item.id}`}>
         <img src={src} alt={item.title} />
 
         <div className="previewInfo">

@@ -1,4 +1,4 @@
-import Switch from "./components/Switch.js"
+import Switch from "./Switch.js"
 import "./Tags.css"
 
 function Tags({ allTags, selectedTags, setSelectedTags }) {

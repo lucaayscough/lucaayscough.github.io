@@ -50,7 +50,7 @@
     font-family: 'Neue Haas Grotesk Display Pro 35 Thin';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 35 Thin'), url('/public/assets/fonts/NeueHaasDisplayThin.woff') format('woff');
+    src: local('Neue Haas Grotesk Display Pro 35 Thin'), url('/assets/fonts/NeueHaasDisplayThin.woff') format('woff');
 }
 
 
@@ -58,7 +58,7 @@
     font-family: 'Neue Haas Grotesk Display Pro 36 Thin Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 36 Thin Italic'), url('/public/assets/fonts/NeueHaasDisplayThinItalic.woff') format('woff');
+    src: local('Neue Haas Grotesk Display Pro 36 Thin Italic'), url('/assets/fonts/NeueHaasDisplayThinItalic.woff') format('woff');
 }
 
 
@@ -66,7 +66,7 @@
     font-family: 'Neue Haas Grotesk Display Pro 55 Roman';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 55 Roman'), url('/public/assets/fonts/NeueHaasDisplayRoman.woff') format('woff');
+    src: local('Neue Haas Grotesk Display Pro 55 Roman'), url('/assets/fonts/NeueHaasDisplayRoman.woff') format('woff');
 }
 
 
@@ -74,7 +74,7 @@
     font-family: 'Neue Haas Grotesk Display Pro 56 Roman Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 56 Roman Italic'), url('/public/assets/fonts/NeueHaasDisplayRomanItalic.woff') format('woff');
+    src: local('Neue Haas Grotesk Display Pro 56 Roman Italic'), url('/assets/fonts/NeueHaasDisplayRomanItalic.woff') format('woff');
 }
 
 
@@ -82,7 +82,7 @@
     font-family: 'Neue Haas Grotesk Display Pro 65 Medium';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 65 Medium'), url('/public/assets/fonts/NeueHaasDisplayMediu.woff') format('woff');
+    src: local('Neue Haas Grotesk Display Pro 65 Medium'), url('/assets/fonts/NeueHaasDisplayMediu.woff') format('woff');
 }
 
 
@@ -90,7 +90,7 @@
     font-family: 'Neue Haas Grotesk Display Pro 66 Medium Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 66 Medium Italic'), url('/public/assets/fonts/NeueHaasDisplayMediumItalic.woff') format('woff');
+    src: local('Neue Haas Grotesk Display Pro 66 Medium Italic'), url('/assets/fonts/NeueHaasDisplayMediumItalic.woff') format('woff');
 }
 
 
@@ -98,7 +98,7 @@
     font-family: 'Neue Haas Grotesk Display Pro 75 Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 75 Bold'), url('/public/assets/fonts/NeueHaasDisplayBold.woff') format('woff');
+    src: local('Neue Haas Grotesk Display Pro 75 Bold'), url('/assets/fonts/NeueHaasDisplayBold.woff') format('woff');
 }
 
 
@@ -106,7 +106,7 @@
     font-family: 'Neue Haas Grotesk Display Pro 76 Bold Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 76 Bold Italic'), url('/public/assets/fonts/NeueHaasDisplayBoldItalic.woff') format('woff');
+    src: local('Neue Haas Grotesk Display Pro 76 Bold Italic'), url('/assets/fonts/NeueHaasDisplayBoldItalic.woff') format('woff');
 }
 
 
@@ -114,7 +114,7 @@
     font-family: 'Neue Haas Grotesk Display Pro 95 Black';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 95 Black'), url('/public/assets/fonts/NeueHaasDisplayBlack.woff') format('woff');
+    src: local('Neue Haas Grotesk Display Pro 95 Black'), url('/assets/fonts/NeueHaasDisplayBlack.woff') format('woff');
 }
 
 
@@ -122,5 +122,5 @@
     font-family: 'Neue Haas Grotesk Display Pro 96 Black Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 96 Black Italic'), url('/public/assets/fonts/NeueHaasDisplayBlackItalic.woff') format('woff');
+    src: local('Neue Haas Grotesk Display Pro 96 Black Italic'), url('/assets/fonts/NeueHaasDisplayBlackItalic.woff') format('woff');
 }

@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from "react"
 import portfolioData from "./portfolioData.json"
 import PortfolioGrid from "./PortfolioGrid.js"
@@ -13,10 +15,12 @@ function Portfolio() {
     : portfolioData
 
   return (
-    <div className="portfolio">
-      <Tags allTags={allTags} selectedTags={selectedTags} setSelectedTags={setSelectedTags} />
-      <PortfolioGrid itemsToShow={itemsToShow} />
-    </div>
+    <main>
+      <div className="portfolio">
+        <Tags allTags={allTags} selectedTags={selectedTags} setSelectedTags={setSelectedTags} />
+        <PortfolioGrid itemsToShow={itemsToShow} />
+      </div>
+    </main>
   )
 }
 
