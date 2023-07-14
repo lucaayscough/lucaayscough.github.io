@@ -1,7 +1,7 @@
 .contentEmbed {
     margin-bottom: 3rem;
     border-radius: 1.5rem;
-    opacity: var(--opacity-const);
+    opacity: 0.85;
     overflow: hidden;
     transition: opacity 0.3s ease;
 }

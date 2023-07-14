@@ -1,18 +1,23 @@
 .itemPreview {
-    background-color: var(--color-dark-2);
     border-radius: 0.75rem;
     overflow: hidden;
-    opacity: 0.95;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .itemPreview:hover {
-    opacity: 1;
     transform: scale(1.01);
 }
 
+.itemPreview a {
+    opacity: 0.85;
+}
+
+.itemPreview a:hover {
+    opacity: 1;
+}
+
 .itemPreview img {
-    border-radius: 0;
+    border-radius: 0.75rem;
     height: auto;
     width: 100%;
     object-fit: cover;
@@ -20,15 +25,18 @@
 
 .previewInfo {
     padding: 1rem;
+    text-align: center;
 }
 
 .itemTitle {
     font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 1rem;
+
 }
 
 .itemDescription {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     padding-bottom: 0.5rem;
+    opacity: var(--opacity-const);
 }
