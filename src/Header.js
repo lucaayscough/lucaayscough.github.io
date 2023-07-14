@@ -8,7 +8,7 @@ function Header() {
 
       <nav className="headerLinks">
         <Link className="headerLink" to="/">HOME</Link>
-        <Link className="headerLink" to="/Portfolio">PORTFOLIO</Link>
+        <Link className="headerLink" to="/portfolio">PORTFOLIO</Link>
         <Link className="headerLink" to="mailto:lucaayscough@gmail.com">CONTACT</Link>
       </nav>
     </header>
