@@ -1,3 +1,5 @@
+import "./Switch.css"
+
 const Switch = ({ id, isToggled, onToggle }) => {
   return (
     <label className="switch">
