@@ -1,4 +1,5 @@
 import ItemPreview from "./item_preview.js"
+import "./portfolio_grid.css"
 
 function PortfolioGrid({ itemsToShow }) {
   return (
