@@ -7,6 +7,7 @@ function Tags({ allTags, selectedTags, setSelectedTags }) {
       {allTags.map(tag => (
         <Switch
           className="filterSwitch"
+          key={tag}
           id={tag}
           isToggled={selectedTags.includes(tag)}
           onToggle={() =>

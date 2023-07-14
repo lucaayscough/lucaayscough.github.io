@@ -1,7 +1,7 @@
 "use client"
 
 import portfolioData from "../portfolioData.json"
-import "./PortfolioItem.css"
+import "./page.css"
 
 function PortfolioItem({ params }) {
   let id = params.id
