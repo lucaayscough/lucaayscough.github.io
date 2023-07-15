@@ -18,55 +18,59 @@
         "tags": ["video_games","sound_design","animation"],
 
         "title": "Unearthed",
-        "brief": "",
+        "brief": "Video game/animation developed by the Red Team at the Big Rock School.",
         "content": "",
 
         "thumbnail": "unearthed.png",
         "image": "",
 
         "role": "",
-        "year": ""
+        "year": "2022",
+        "client": "Big Rock School" 
     }, 
     {
         "id": 3,
         "tags": ["video_games","sound_design","animation"],
 
         "title": "Red'em All",
-        "brief": "",
+        "brief": "Video game/animation developed by the Red Team at the Big Rock School.",
         "content": "red_em_all.md",
 
         "thumbnail": "red_em_all.png",
         "image": "",
 
         "role": "",
-        "year": ""
+        "year": "2022",
+        "client": "Big Rock School"
     },
     {
         "id": 4,
         "tags": ["animation","music"],
 
         "title": "Cairn",
-        "brief": "",
+        "brief": "Animation used to advertise Cairns new platform technology My Cairn.",
         "content": "",
 
         "thumbnail": "cairn.jpg",
         "image": "",
 
         "role": "",
-        "year": ""
+        "year": "2019",
+        "client": "Cairn Housing Association" 
     },
     {
         "id": 5,
         "tags": ["animation","music","sound_design"],
 
         "title": "Blackwood",
-        "brief": "",
+        "brief": "Animation used to advertise Blackwoods Clever Cogs technology.",
         "content": "",
 
         "thumbnail": "blackwood.png",
 
         "role": "",
-        "year": ""
+        "year": "2019",
+        "client": "Balckwood Homes and Care" 
     },
     {
         "id": 6,
@@ -79,7 +83,8 @@
         "thumbnail": "stranger_in_a_train.png",
 
         "role": "Composer, Sound Designer, Post-Production",
-        "year": "2022"
+        "year": "2022",
+        "client": "Angelica Arasi" 
     },
     {
         "id": 7,
@@ -92,7 +97,8 @@
         "thumbnail": "the_garden.jpg",
 
         "role": "Songwriter, Producer",
-        "year": "2023"
+        "year": "2023",
+        "client": "Happy Face Factory" 
     },
     {
         "id": 8,
@@ -105,7 +111,8 @@
         "thumbnail": "robeland.jpg",
 
         "role": "Songwriter, Producer",
-        "year": "2021"
+        "year": "2021",
+        "client": "Happy Face Factory" 
     },
     {
         "id": 9,
@@ -118,7 +125,8 @@
         "thumbnail": "round_senior.jpg",
 
         "role": "Songwriter, Producer",
-        "year": "2020"
+        "year": "2020",
+        "client": "Happy Face Factory"
     },
     {
         "id": 10,
@@ -131,6 +139,7 @@
         "thumbnail": "send_me_home.jpg",
 
         "role": "Soongwriter, Producer",
-        "yers": "2018"
+        "year": "2018",
+        "client": "Happy Face Factory" 
     }
 ]
