@@ -5,7 +5,7 @@ function PortfolioGrid({ itemsToShow }) {
   return (
     <div className="portfolioGrid">
       {itemsToShow.map(item => (
-        <ItemPreview key={item} item={item} />
+        <ItemPreview key={item.id} item={item} />
       ))}
     </div>
   )
