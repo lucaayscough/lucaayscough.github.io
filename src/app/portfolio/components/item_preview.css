@@ -1,7 +1,7 @@
 .itemPreview {
     border-radius: 0.75rem;
     overflow: hidden;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .itemPreview:hover {
@@ -9,10 +9,6 @@
 }
 
 .itemPreview a {
-    opacity: 0.85;
-}
-
-.itemPreview a:hover {
     opacity: 1;
 }
 
@@ -38,7 +34,6 @@
 .itemBrief {
     font-size: 1.15rem;
     padding-bottom: 0.5rem;
-    opacity: var(--opacity-const);
     padding-bottom: 1rem;;
 }
 

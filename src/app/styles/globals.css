@@ -1,10 +1,6 @@
 :root{
-  --color-light: #FAFAFA;
-  --color-light-2: #EEE5E9;
-  --color-dark: #1A1C20;
-  --color-dark-2: #212429;
-  --color-inactive: #476C9B;
-  --color-active: #B25C4E;
+  --color-dark: #FAFAFA;
+  --color-light: #1A1C20;
 
   --opacity-const: 0.75;
 }

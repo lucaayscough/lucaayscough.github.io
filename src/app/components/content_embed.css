@@ -1,13 +1,7 @@
 .contentEmbed {
     margin-bottom: 3rem;
-    border-radius: 1.5rem;
-    opacity: 0.85;
+    border-radius: 1rem;
     overflow: hidden;
-    transition: opacity 0.3s ease;
-}
-
-.contentEmbed:hover {
-    opacity: 1;
 }
 
 .embedContainer {
