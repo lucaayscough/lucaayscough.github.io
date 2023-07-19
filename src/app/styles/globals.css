@@ -13,8 +13,18 @@
 body {
   background-color: var(--color-dark);
   width: 100%;
-  height: 100%;
-  font-family: 'arial';
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+
   color: var(--color-light);
 }
 
@@ -22,7 +32,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.20rem;
 }
 
 h1 {
