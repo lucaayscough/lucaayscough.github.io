@@ -1,9 +1,9 @@
 "use client"
 
-import './styles/globals.css'
-import "./styles/fonts.css"
+import './globals.css'
+import "./fonts.css"
 import { usePathname } from 'next/navigation'
-import Header from "./components/header.js"
+import Header from "./header.js"
 
 export default function RootLayout({
   children,

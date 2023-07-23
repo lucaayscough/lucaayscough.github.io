@@ -5,7 +5,7 @@ import portfolioData from "../portfolioData.json"
 import "./page.css"
 
 function PortfolioItem({ params }) {
-  let id = params.id
+  let id = params.slug
   const item = portfolioData.find((foundItem) => foundItem.id === Number(id))
   let src = `/assets/thumbnails/${item.thumbnail}`
 
@@ -17,7 +17,7 @@ function PortfolioItem({ params }) {
             <h1>{item.title.toUpperCase()}</h1>
           </div>
           <div className="img">
-            <Image width="500" height="500" src={src} alt={item.title} />
+            <img src={src} alt={item.title} />
           </div>
         </div>
         <div className="brief">
