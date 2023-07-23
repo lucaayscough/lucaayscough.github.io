@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import portfolioData from "../portfolioData.json"
 import "./page.css"
 
@@ -16,7 +17,7 @@ function PortfolioItem({ params }) {
             <h1>{item.title.toUpperCase()}</h1>
           </div>
           <div className="img">
-            <img src={src} alt={item.title} />
+            <Image width="500" height="500" src={src} alt={item.title} />
           </div>
         </div>
         <div className="brief">
