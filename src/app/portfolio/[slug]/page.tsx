@@ -25,7 +25,7 @@ function PortfolioItem({ params }: { params: { slug: string } }) {
           </div>
           <div className="img"></div>
         </div>
-        <div className="abstract"></div>
+        <div className="abstract">{post.abstract}</div>
         <time dateTime={post.date} className="mb-1 text-xs text-gray-600">
           {format(parseISO(post.date), 'LLLL d, yyyy')}
         </time>
