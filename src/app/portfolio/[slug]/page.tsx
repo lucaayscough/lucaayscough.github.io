@@ -16,6 +16,8 @@ function PortfolioItem({ params }: { params: { slug: string } }) {
   const post = allPortfolios.find((post) => post._raw.flattenedPath === params.slug)
   if (!post) throw new Error(`Post not found for slug: ${params.slug}`)
 
+  const src = `/assets/thumbnails/${post.title.replace(/ /g, '_').toLowerCase()}.png`
+
   return(
     <article>
       <div className="portfolioItem">
@@ -23,7 +25,9 @@ function PortfolioItem({ params }: { params: { slug: string } }) {
           <div className="title">
             <h1>{post.title.toUpperCase()}</h1>
           </div>
-          <div className="img"></div>
+          <div className="img">
+            <img src={src} alt={post.title} />
+          </div>
         </div>
         <div className="abstract">{post.abstract}</div>
         <time dateTime={post.date} className="mb-1 text-xs text-gray-600">
