@@ -3,6 +3,7 @@
 import Image from "next/image"
 import portfolioData from "../portfolioData.json"
 import "./page.css"
+import { Header } from "components/header.js"
 
 function PortfolioItem({ params }) {
   let id = params.slug

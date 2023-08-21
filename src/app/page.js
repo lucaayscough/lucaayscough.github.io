@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ContentEmbed from "./components/content_embed.js"
+import ContentEmbed from "../../components/content_embed.js"
 import "./page.css"
 
 export default function Home() {
