@@ -1,3 +1,4 @@
+// app/portfolio/[slug]/page.js
 "use client"
 
 import Image from "next/image"
@@ -11,7 +12,7 @@ function PortfolioItem({ params }) {
   let src = `/assets/thumbnails/${item.thumbnail}`
 
   return(
-    <main>
+    <article>
       <div className="portfolioItem">
         <div className="banner">
           <div className="title">
@@ -28,7 +29,7 @@ function PortfolioItem({ params }) {
           {item.description}
         </div>
       </div>
-    </main>
+    </article>
   )
 }
 

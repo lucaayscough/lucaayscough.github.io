@@ -18,7 +18,7 @@ export type Portfolio = {
   abstract: string
   thumbnail: string
   role: string
-  year: string
+  date: IsoDateTimeString
   client: string
   /** Markdown file body */
   body: Markdown

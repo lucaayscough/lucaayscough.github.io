@@ -14,7 +14,7 @@ export const Portfolio = defineDocumentType(() => ({
     abstract: { type: 'string', required: true },
     thumbnail: { type: 'string', required: true },
     role: { type: 'string', required: true }, 
-    year: { type: 'string', required: true },
+    date: { type: 'date', required: true },
     client: { type: 'string', required: true },
   },
   computedFields: {

@@ -2,8 +2,7 @@
 
 import './globals.css'
 import "./fonts.css"
-import { usePathname } from 'next/navigation'
-import Header from "../../components/header.js"
+import Header from "components/header.js"
 
 export default function RootLayout({
   children,
