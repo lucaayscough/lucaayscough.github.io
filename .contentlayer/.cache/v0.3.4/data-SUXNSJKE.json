@@ -1,3 +1,50 @@
 {
-  "cacheItemsMap": {}
+  "cacheItemsMap": {
+    "post-01.mdx": {
+      "document": {
+        "title": "My First Post",
+        "date": "2021-12-24T00:00:00.000Z",
+        "body": {
+          "raw": "\nUllamco et nostrud magna commodo nostrud ...",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud ...</p>"
+        },
+        "_id": "post-01.mdx",
+        "_raw": {
+          "sourceFilePath": "post-01.mdx",
+          "sourceFileName": "post-01.mdx",
+          "sourceFileDir": ".",
+          "contentType": "mdx",
+          "flattenedPath": "post-01"
+        },
+        "type": "Portfolio",
+        "url": "/portfolio/post-01"
+      },
+      "documentHash": "1692612616729",
+      "hasWarnings": false,
+      "documentTypeName": "Portfolio"
+    },
+    "post-02.mdx": {
+      "document": {
+        "title": "My Second Post",
+        "date": "2021-12-24T00:00:00.000Z",
+        "body": {
+          "raw": "\nUllamco et nostrud magna commodo nostrud ...",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud ...</p>"
+        },
+        "_id": "post-02.mdx",
+        "_raw": {
+          "sourceFilePath": "post-02.mdx",
+          "sourceFileName": "post-02.mdx",
+          "sourceFileDir": ".",
+          "contentType": "mdx",
+          "flattenedPath": "post-02"
+        },
+        "type": "Portfolio",
+        "url": "/portfolio/post-02"
+      },
+      "documentHash": "1692612627726",
+      "hasWarnings": false,
+      "documentTypeName": "Portfolio"
+    }
+  }
 }
