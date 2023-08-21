@@ -1,5 +1,3 @@
-"use client"
-
 import './globals.css'
 import "./fonts.css"
 import Header from "components/header.js"
