@@ -14,7 +14,12 @@ export type Portfolio = {
   _raw: Local.RawDocumentData
   type: 'Portfolio'
   title: string
-  date: IsoDateTimeString
+  tags: string[]
+  abstract: string
+  thumbnail: string
+  role: string
+  year: string
+  client: string
   /** Markdown file body */
   body: Markdown
   url: string

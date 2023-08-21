@@ -6,11 +6,23 @@ export const Portfolio = defineDocumentType(() => ({
   filePathPattern: `**/*.mdx`,
   fields: {
     title: { type: 'string', required: true },
-    date: { type: 'date', required: true },
+    tags: {
+      type: 'list',
+      of: { type: 'string' },
+      required: true,
+    },
+    abstract: { type: 'string', required: true },
+    thumbnail: { type: 'string', required: true },
+    role: { type: 'string', required: true }, 
+    year: { type: 'string', required: true },
+    client: { type: 'string', required: true },
   },
   computedFields: {
     url: { type: 'string', resolve: (portfolio) => `/portfolio/${portfolio._raw.flattenedPath}` },
   },
 }))
 
-export default makeSource({ contentDirPath: 'portfolio', documentTypes: [Portfolio] })
+export default makeSource({
+  contentDirPath: 'portfolio', 
+  documentTypes: [Portfolio]
+})
