@@ -16,7 +16,6 @@ export type Portfolio = {
   title: string
   tags: string[]
   abstract: string
-  thumbnail: string
   role: string
   date: IsoDateTimeString
   client: string
