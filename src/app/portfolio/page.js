@@ -1,9 +1,12 @@
+// app/portfolio/page.js
 "use client"
 
 import { useState } from "react"
 import Link from "next/link"
-import portfolioData from "./portfolioData.json"
 import "./page.css"
+
+import { compareDesc, format, parseISO } from 'date-fns'
+import { allPortfolios, Post } from 'contentlayer/generated'
 
 const Switch = ({ id, isToggled, onToggle }) => {
   return (
@@ -40,17 +43,19 @@ function Tags({ allTags, selectedTags, setSelectedTags }) {
 }
 
 function ItemPreview({ item }) {
-  const src = `assets/thumbnails/${item.thumbnail}`
+  const src = `assets/thumbnails/${item.title.replace(/ /g, '_').toLowerCase()}.png`
 
   return (
-    <div key={item.id} className="itemPreview">
-      <Link href={`/portfolio/${item.id}`}>
+    <div className="itemPreview">
+      <Link href={item.url}>
         <img src={src} alt={item.title} />
 
         <div className="previewInfo">
           <div className="itemTitle">{item.title}</div>
-          <div className="itemBrief">{item.brief}</div>
-          <div className="itemFooter">{item.client} • {item.year}</div>
+          <div className="itemBrief">{item.abstract}</div>
+          <div className="itemFooter">
+            {item.client} • <time dateTime={item.date}>{format(parseISO(item.date), 'yyyy')}</time>
+          </div>
         </div>
       </Link>
     </div> 
@@ -60,29 +65,71 @@ function ItemPreview({ item }) {
 function PortfolioGrid({ itemsToShow }) {
   return (
     <div className="portfolioGrid">
-      {itemsToShow.map(item => (
-        <ItemPreview key={item.id} item={item} />
+      {itemsToShow.map((item, idx) => (
+        <ItemPreview key={idx} item={item} />
       ))}
     </div>
   )
 }
 
 function Portfolio() {
-  const [selectedTags, setSelectedTags] = useState([])
-  const allTags = [...new Set(portfolioData.flatMap(item => item.tags))]
+  const posts = allPortfolios.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
 
-  const itemsToShow = selectedTags.length > 0
-    ? portfolioData.filter(item => item.tags.some(tag => selectedTags.includes(tag)))
-    : portfolioData
+  const [selectedTags, setSelectedTags] = useState([])
+  const allTags = [...new Set(allPortfolios.flatMap(item => item.tags))]
+
+  const postsToShow = selectedTags.length > 0
+    ? allPortfolios.filter(post => post.tags.some(tag => selectedTags.includes(tag)))
+    : allPortfolios
 
   return (
     <main>
       <div className="portfolio">
         <Tags allTags={allTags} selectedTags={selectedTags} setSelectedTags={setSelectedTags} />
-        <PortfolioGrid itemsToShow={itemsToShow} />
+        <PortfolioGrid itemsToShow={postsToShow} />
       </div>
     </main>
   )
 }
 
 export default Portfolio
+
+
+
+
+
+
+
+
+
+
+
+
+// function PostCard(post: Post) {
+//   return (
+//     <div className="mb-8">
+//       <h2 className="mb-1 text-xl">
+//         <Link href={post.url} className="text-blue-700 hover:text-blue-900 dark:text-blue-400">
+//           {post.title}
+//         </Link>
+//       </h2>
+//       <time dateTime={post.date} className="mb-2 block text-xs text-gray-600">
+//         {format(parseISO(post.date), 'LLLL d, yyyy')}
+//       </time>
+//       <div className="text-sm [&>*]:mb-3 [&>*:last-child]:mb-0" dangerouslySetInnerHTML={{ __html: post.body.html }} />
+//     </div>
+//   )
+// }
+
+// function Home() {
+//   //const posts = allPortfolios.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
+
+//   return (
+//     <div className="mx-auto max-w-xl py-8">
+//       <h1 className="mb-8 text-center text-2xl font-black">Next.js + Contentlayer Example</h1>
+//       {posts.map((post, idx) => (
+//         <PostCard key={idx} {...post} />
+//       ))}
+//     </div>
+//   )
+// }
