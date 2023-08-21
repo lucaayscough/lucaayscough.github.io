@@ -1,3 +1,140 @@
+/* Page */
+
 .portfolio {
     padding: 3rem;
+}
+
+/* Portfolio Grid */
+
+.portfolioGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    max-width: 1200px;
+}
+
+@media (max-width: 1100px) {
+    .portfolioGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolioGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Item Preview */
+
+.itemPreview {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.itemPreview:hover {
+    transform: scale(1.01);
+}
+
+.itemPreview a {
+    opacity: 1;
+}
+
+.itemPreview img {
+    border-radius: 0.75rem;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.previewInfo {
+    padding: 1rem;
+    text-align: center;
+}
+
+.itemTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+
+}
+
+.itemBrief {
+    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;;
+}
+
+.itemFooter {
+    font-size: 0.75rem;
+    opacity: var(--opacity-const);
+    font-style: italic;
+}
+
+/* Switch */
+
+.switch {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4rem;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.tag {
+    position: absolute;
+    cursor: pointer;
+    color: var(--color-light);
+    transition: opacity 0.3s ease;
+    font-family: 'Neue Haas Grotesk Display Pro 65 Medium';
+    font-size: 1rem;
+    opacity: var(--opacity-const);
+}
+
+.tag:hover {
+   opacity: 1; 
+}
+
+.tag::before {
+    position: absolute;
+    top: 0.33rem;
+    left: 0;
+    content: "";
+    height: 0.33rem;
+    width: 0.33rem;
+    background-color: var(--color-light);
+    opacity: 0;
+    border-radius: 1rem;
+    transition: opacity 0.3s ease, left 0.3s ease;
+}
+
+input:checked + .tag {
+    opacity: 1;
+}
+
+input:checked + .tag::before {
+    opacity: 1;
+    left: -0.67rem;
+}
+
+/* Tags */
+
+.tags {
+    display: flex;
+    margin-bottom: 3rem;
+    background-color: var(--color-dark-2);
+    border-radius: 0.75rem;
+}
+
+@media (max-width: 1000px) {
+    .tags {
+        flex-direction: column;
+    }
 }
