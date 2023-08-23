@@ -1,6 +1,6 @@
-import "./content_embed.css"
+// components/content_embed.tsx
 
-function ContentEmbed({ url }) {
+export default function ContentEmbed({ url }: { url: string }) {
   return (
     <div className="contentEmbed">
       <div className="embedContainer">
@@ -17,5 +17,3 @@ function ContentEmbed({ url }) {
     </div>
   )
 }
-
-export default ContentEmbed
