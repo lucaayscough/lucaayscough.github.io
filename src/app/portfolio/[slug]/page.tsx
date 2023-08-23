@@ -22,7 +22,7 @@ function PortfolioItem({ params }: { params: { slug: string } }) {
   const src = `/assets/thumbnails/${post.title.replace(/ /g, '_').toLowerCase()}.png`
 
   return(
-    <article>
+    <main>
       <div className="portfolioItem">
         <div className="banner">
           <div className="title">
@@ -36,9 +36,11 @@ function PortfolioItem({ params }: { params: { slug: string } }) {
         <time dateTime={post.date} className="mb-1 text-xs text-gray-600">
           {format(parseISO(post.date), 'LLLL d, yyyy')}
         </time>
-        <MDXContent className="content" />
+        <article>
+          <MDXContent className="content" />
+        </article>
       </div>
-    </article>
+    </main>
   )
 }
 

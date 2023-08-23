@@ -5,15 +5,13 @@ export default function Home() {
   return (
     <main>
       <div className="home">
-        <div className="videoContent">
-          <ContentEmbed url="https://www.youtube.com/embed/DNTj3ZSZSrE" />
+        <ContentEmbed url="https://www.youtube.com/embed/DNTj3ZSZSrE" />
 
-          <p>
-            sdksmdskdmskdm
-            aasasasnasnamsnamnsmansmansmansmansmansmansmanmn amsnmansmansmanmsnamsnam
-            nsmansmansmnamsnamsn
-          </p>
-        </div>
+        <p>
+          sdksmdskdmskdm
+          aasasasnasnamsnamnsmansmansmansmansmansmansmanmn amsnmansmansmanmsnamsnam
+          nsmansmansmnamsnamsn
+        </p>
       </div>
     </main> 
   )
