@@ -19,8 +19,8 @@ export type Portfolio = {
   role: string
   date: IsoDateTimeString
   client: string
-  /** Markdown file body */
-  body: Markdown
+  /** MDX file body */
+  body: MDX
   url: string
 }  
 

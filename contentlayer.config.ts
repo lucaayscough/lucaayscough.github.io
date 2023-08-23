@@ -4,6 +4,7 @@ import { defineDocumentType, makeSource } from 'contentlayer/source-files'
 export const Portfolio = defineDocumentType(() => ({
   name: 'Portfolio',
   filePathPattern: `**/*.mdx`,
+  contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
     tags: {
