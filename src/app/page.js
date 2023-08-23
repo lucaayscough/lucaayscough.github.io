@@ -1,4 +1,4 @@
-import ContentEmbed from "components/content_embed.tsx"
+import ContentEmbed from "@/components/content_embed.tsx"
 import "./page.css"
 
 export default function Home() {

@@ -1,6 +1,6 @@
 import './globals.css'
 import "./fonts.css"
-import Header from "components/header.js"
+import Header from "@/components/header.js"
 
 export default function RootLayout({
   children,

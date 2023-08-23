@@ -2,9 +2,10 @@
 
 export default function ContentEmbed({ url }: { url: string }) {
   return (
-    <div className="contentEmbed">
-      <div className="embedContainer">
+    <div className="mb-12 rounded-2xl overflow-hidden">
+      <div className="relative pb-[56.25%]">
         <iframe
+          className="absolute top-0 left-0 w-full h-full"
           width="560"
           height="315"
           src={url}
