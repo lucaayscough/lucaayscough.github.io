@@ -1,4 +1,4 @@
-// app/portfolio/[slug]/page.js
+// app/portfolio/[slug]/page.tsx
 
 import "./page.css"
 import { format, parseISO } from 'date-fns'

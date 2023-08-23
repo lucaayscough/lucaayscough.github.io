@@ -104,7 +104,7 @@
 
 .tag::before {
     position: absolute;
-    top: 0.33rem;
+    top: 0.50rem;
     left: 0;
     content: "";
     height: 0.33rem;
