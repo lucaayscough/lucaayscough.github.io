@@ -32,11 +32,11 @@ function PortfolioItem({ params }: { params: { slug: string } }) {
             <img src={src} alt={post.title} />
           </div>
         </div>
-        <div className="abstract">{post.abstract}</div>
-        <time dateTime={post.date} className="mb-1 text-xs text-gray-600">
-          {format(parseISO(post.date), 'LLLL d, yyyy')}
-        </time>
         <article className="content">
+          <div className="abstract">{post.abstract}</div>
+          <time dateTime={post.date} className="mb-1 text-xs text-gray-600">
+            {format(parseISO(post.date), 'LLLL d, yyyy')}
+          </time>
           <MDXContent />
         </article>
       </div>
