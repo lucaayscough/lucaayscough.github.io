@@ -36,8 +36,8 @@ function PortfolioItem({ params }: { params: { slug: string } }) {
         <time dateTime={post.date} className="mb-1 text-xs text-gray-600">
           {format(parseISO(post.date), 'LLLL d, yyyy')}
         </time>
-        <article>
-          <MDXContent className="content" />
+        <article className="content">
+          <MDXContent />
         </article>
       </div>
     </main>
