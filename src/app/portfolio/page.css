@@ -129,7 +129,7 @@ input:checked + .tag::before {
 .tags {
     display: flex;
     margin-bottom: 3rem;
-    background-color: var(--color-dark-2);
+    background-color: var(--color-dark);
     border-radius: 0.75rem;
 }
 
