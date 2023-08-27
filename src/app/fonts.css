@@ -1,126 +1,193 @@
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 45 Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 45 Light'), url('/public/assets/fonts/NeueHaasDisplayLight.woff') format('woff');
-}
-    
+/* Sofia Pro */
 
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 46 Light Italic';
+    font-family: 'Sofia Pro Semi';
+    src: url('/assets/fonts/SofiaProSemiBold.eot');
+    src: local('Sofia Pro Semi Bold'), local('SofiaProSemiBold'),
+        url('/assets/fonts/SofiaProSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProSemiBold.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProSemiBold.woff') format('woff'),
+        url('/assets/fonts/SofiaProSemiBold.ttf') format('truetype');
+    font-weight: 600;
     font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 46 Light Italic'), url('/public/assets/fonts/NeueHaasDisplayLightItalic.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 15 XXThin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 15 XXThin'), url('/public/assets/fonts/NeueHaasDisplayXXThin.woff') format('woff');
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 16 XXThin Italic';
-    font-style: normal;
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProRegular-Italic.eot');
+    src: local('Sofia Pro Regular Italic'), local('SofiaProRegular-Italic'),
+        url('/assets/fonts/SofiaProRegular-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProRegular-Italic.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProRegular-Italic.woff') format('woff'),
+        url('/assets/fonts/SofiaProRegular-Italic.ttf') format('truetype');
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 16 XXThin Italic'), url('/public/assets/fonts/NeueHaasDisplayXXThinItalic.woff') format('woff');
+    font-style: italic;
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 25 XThin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 25 XThin'), url('/public/assets/fonts/NeueHaasDisplayXThin.woff') format('woff');
+    font-family: 'Sofia Pro Semi';
+    src: url('/assets/fonts/SofiaProSemiBold-Italic.eot');
+    src: local('Sofia Pro Semi Bold Italic'), local('SofiaProSemiBold-Italic'),
+        url('/assets/fonts/SofiaProSemiBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProSemiBold-Italic.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProSemiBold-Italic.woff') format('woff'),
+        url('/assets/fonts/SofiaProSemiBold-Italic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 26 XThin Italic';
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProLight.eot');
+    src: local('Sofia Pro Light'), local('SofiaProLight'),
+        url('/assets/fonts/SofiaProLight.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProLight.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProLight.woff') format('woff'),
+        url('/assets/fonts/SofiaProLight.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 26 XThin Italic'), url('/public/assets/fonts/NeueHaasDisplayXThinItalic.woff') format('woff');
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 35 Thin';
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProExtraLight.eot');
+    src: local('Sofia Pro ExtraLight'), local('SofiaProExtraLight'),
+        url('/assets/fonts/SofiaProExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProExtraLight.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProExtraLight.woff') format('woff'),
+        url('/assets/fonts/SofiaProExtraLight.ttf') format('truetype');
+    font-weight: 200;
     font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 35 Thin'), url('/assets/fonts/NeueHaasDisplayThin.woff') format('woff');
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 36 Thin Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 36 Thin Italic'), url('/assets/fonts/NeueHaasDisplayThinItalic.woff') format('woff');
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProMedium-Italic.eot');
+    src: local('Sofia Pro Medium Italic'), local('SofiaProMedium-Italic'),
+        url('/assets/fonts/SofiaProMedium-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProMedium-Italic.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProMedium-Italic.woff') format('woff'),
+        url('/assets/fonts/SofiaProMedium-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 55 Roman';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 55 Roman'), url('/assets/fonts/NeueHaasDisplayRoman.woff') format('woff');
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProUltraLight-Italic.eot');
+    src: local('Sofia Pro UltraLight Italic'), local('SofiaProUltraLight-Italic'),
+        url('/assets/fonts/SofiaProUltraLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProUltraLight-Italic.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProUltraLight-Italic.woff') format('woff'),
+        url('/assets/fonts/SofiaProUltraLight-Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 56 Roman Italic';
-    font-style: normal;
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProRegular.eot');
+    src: local('Sofia Pro Regular'), local('SofiaProRegular'),
+        url('/assets/fonts/SofiaProRegular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProRegular.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProRegular.woff') format('woff'),
+        url('/assets/fonts/SofiaProRegular.ttf') format('truetype');
     font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 56 Roman Italic'), url('/assets/fonts/NeueHaasDisplayRomanItalic.woff') format('woff');
+    font-style: normal;
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 65 Medium';
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProMedium.eot');
+    src: local('Sofia Pro Medium'), local('SofiaProMedium'),
+        url('/assets/fonts/SofiaProMedium.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProMedium.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProMedium.woff') format('woff'),
+        url('/assets/fonts/SofiaProMedium.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 65 Medium'), url('/assets/fonts/NeueHaasDisplayMediu.woff') format('woff');
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 66 Medium Italic';
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/ofiaProBold.eot');
+    src: local('Sofia Pro Bold'), local('SofiaProBold'),
+        url('/assets/fonts/SofiaProBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProBold.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProBold.woff') format('woff'),
+        url('/assets/fonts/SofiaProBold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 66 Medium Italic'), url('/assets/fonts/NeueHaasDisplayMediumItalic.woff') format('woff');
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 75 Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 75 Bold'), url('/assets/fonts/NeueHaasDisplayBold.woff') format('woff');
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProExtraLight-Italic.eot');
+    src: local('Sofia Pro ExtraLight Italic'), local('SofiaProExtraLight-Italic'),
+        url('/assets/fonts/SofiaProExtraLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProExtraLight-Italic.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProExtraLight-Italic.woff') format('woff'),
+        url('/assets/fonts/SofiaProExtraLight-Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 76 Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 76 Bold Italic'), url('/assets/fonts/NeueHaasDisplayBoldItalic.woff') format('woff');
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProLight-Italic.eot');
+    src: local('Sofia Pro Light Italic'), local('SofiaProLight-Italic'),
+        url('/assets/fonts/SofiaProLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProLight-Italic.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProLight-Italic.woff') format('woff'),
+        url('/assets/fonts/SofiaProLight-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
 }
 
-
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 95 Black';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 95 Black'), url('/assets/fonts/NeueHaasDisplayBlack.woff') format('woff');
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProBlack-Italic.eot');
+    src: local('Sofia Pro Black Italic'), local('SofiaProBlack-Italic'),
+        url('/assets/fonts/SofiaProBlack-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProBlack-Italic.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProBlack-Italic.woff') format('woff'),
+        url('/assets/fonts/SofiaProBlack-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
 }
 
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProBlack.eot');
+    src: local('Sofia Pro Black'), local('SofiaProBlack'),
+        url('/assets/fonts/SofiaProBlack.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProBlack.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProBlack.woff') format('woff'),
+        url('/assets/fonts/SofiaProBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
 
 @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 96 Black Italic';
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProUltraLight.eot');
+    src: local('Sofia Pro UltraLight'), local('SofiaProUltraLight'),
+        url('/assets/fonts/SofiaProUltraLight.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProUltraLight.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProUltraLight.woff') format('woff'),
+        url('/assets/fonts/SofiaProUltraLight.ttf') format('truetype');
+    font-weight: 200;
     font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 96 Black Italic'), url('/assets/fonts/NeueHaasDisplayBlackItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('/assets/fonts/SofiaProBold-Italic.eot');
+    src: local('Sofia Pro Bold Italic'), local('SofiaProBold-Italic'),
+        url('/assets/fonts/SofiaProBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SofiaProBold-Italic.woff2') format('woff2'),
+        url('/assets/fonts/SofiaProBold-Italic.woff') format('woff'),
+        url('/assets/fonts/SofiaProBold-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
 }
