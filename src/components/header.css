@@ -3,88 +3,10 @@
     font-size: 2.5rem;
 }
 
-.hamburgerMenu {
-    --height: 0.25rem;
-    --width: calc(var(--height) * 3 + var(--gap) * 2);
-    --middle-offset: 0.50rem;
-    --gap: calc(var(--height) * 1.414213);
-    --hamburger-height: calc(var(--height) * 3 + var(--gap) * 2);
-    --x-width: calc(var(--hamburger-height) * 1.414213);
-
-    --animation-time: 0.3s ease;
-
-    display: flex;
-    flex-direction: column;
-    gap: var(--gap);
-    
-    position: absolute;
-    top: 4rem;
-    right: 4rem;
-
-    cursor: pointer;
-    z-index: 2;
-}
-
-.hamburgerMenu::after,
-.hamburgerMenu::before,
-.hamburgerMenu input {
-    content: "";
-    height: var(--height);
-    width: var(--width);
-    background: var(--color-dark);
-
-    transform-origin: right center;
-    transition: opacity var(--animation-time), width var(--animation-time), rotate var(--animation-time), translate var(--animation-time);
-}
-
-.hamburgerMenu input {
-    width: calc(var(--width) - var(--middle-offset));
-    margin-left: calc(var(--middle-offset) / 2);
-}
-
-.hamburgerMenu input {
-    appearance: none;
-    outline: none;
-    pointer-events: none;
-}
-
-.hamburgerMenu:has(input:checked)::before {
-    rotate: -45deg;
-    width: var(--x-width);
-    translate: 0 calc(var(--height) / -2);
-}
-
-.hamburgerMenu:has(input:checked)::after {
-    rotate: 45deg;
-    width: var(--x-width);
-    translate: 0 calc(var(--height) / 2);
-}
-
-.hamburgerMenu input:checked {
-    opacity: 0;
-    width: 0;
-}
-
 .navBar {
-    display: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
     justify-content: center;
     align-items: center;
-
-    position: absolute;
-
-    background-color: var(--color-light);
-    z-index: 1;
-    width: 100vw;
-
-    font-size: 2.5rem;
-}
-
-.hamburgerMenu:has(input:checked) + .navBar {
-    display: flex;
-} 
-
-nav {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
 }
