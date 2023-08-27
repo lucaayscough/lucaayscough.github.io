@@ -3,7 +3,7 @@ import ContentEmbed from "@/components/content_embed"
 export default function Home() {
   return (
     <main>
-      <h1>about</h1>
+      <h1>About</h1>
 
       <ContentEmbed url="DNTj3ZSZSrE" service="youtube" />
 

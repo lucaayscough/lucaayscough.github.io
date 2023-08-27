@@ -8,7 +8,7 @@ export default function Media() {
 
   return (
     <main>
-      <h1>media</h1>
+      <h1>Media</h1>
 
       <div className="grid md:grid-cols-2 grid-cols-1 gap-12">
         {posts.map((item, idx) => (
