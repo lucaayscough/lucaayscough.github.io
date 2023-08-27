@@ -4,7 +4,7 @@ import "./header.css"
 
 function Header() {
   return (
-    <header className="flex flex-col items-center justify-center p-12 gap-8">
+    <header className="flex flex-col items-center justify-center p-20 gap-8">
       <div>
         <Image
           priority

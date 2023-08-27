@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root{
-  --color-dark: #1A1C20;
+  --color-dark: #1a1c20;
   --color-light: #FAFAFA;
   --color-red: #b25c4e;
 
@@ -22,15 +22,16 @@ body {
   flex-direction: column;
   min-height: 100vh;
 
+  font-family: "Sofia Pro";
+  font-weight: 200;
 
-
-  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /* font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal;
+  font-kerning: normal; */
 
   color: var(--color-dark);
 }
@@ -42,7 +43,8 @@ main {
 }
 
 h1 {
-  font-family: "Neue Haas Grotesk Display Pro 75 Bold";
+  font-size: 2.5rem;
+  font-weight: 100;
 }
 
 a {
