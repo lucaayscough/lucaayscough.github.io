@@ -5,7 +5,7 @@ export default function ContentEmbed({ url, service }: { url: string, service: s
 
   if (service === "youtube") {
     return (
-      <div className="mb-12 rounded-2xl overflow-hidden">
+      <div className="w-full mb-12 overflow-hidden">
         <div className="relative pb-[56.25%]">
           <iframe
             className="absolute top-0 left-0 w-full h-full"
@@ -24,7 +24,7 @@ export default function ContentEmbed({ url, service }: { url: string, service: s
 
   else if (service === "vimeo") {
     return (
-      <div className="mb-12 rounded-2xl overflow-hidden">
+      <div className="w-full mb-12 overflow-hidden">
         <div className="relative pb-[56.25%]">
           <iframe
             className="absolute top-0 left-0 w-full h-full"
@@ -42,7 +42,7 @@ export default function ContentEmbed({ url, service }: { url: string, service: s
 
   else if (service === "soundcloud") {
     return (
-      <div className="mb-12 rounded-2xl overflow-hidden">
+      <div className="w-full mb-12 overflow-hidden">
         <div className="relative pb-[56.25%]">
           <iframe
             className="absolute top-0 left-0 w-full h-full"

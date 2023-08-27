@@ -19,6 +19,7 @@ export type Portfolio = {
   role: string
   date: IsoDateTimeString
   client: string
+  link: string
   /** MDX file body */
   body: MDX
   url: string

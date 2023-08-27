@@ -13,6 +13,11 @@ const config: Config = {
       lg: '976px',
       xl: '1440px',
     },
+    colors: {
+      'black': '#1a1c20',
+      'white': '#fafafa',
+      'red': '#b25c4e',
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
