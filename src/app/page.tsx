@@ -8,7 +8,7 @@ export default function Home() {
         <ContentEmbed url="DNTj3ZSZSrE" service="youtube"/>
 
         <p>
-          I am a composer, sound designer and programmer with over a decade of experience in the intersection of music, sound, and technology. My expertise lies in audio production and composition, where I can seamlessly blend high-quality sound assets with engaging narratives. My diverse portfolio includes composing for various media forms such as film, TV, video games, and spoken word. I have had the privilege to work with clients like BigRock, Cairn Housing Association, and Blackwood Homes and Care, creating bespoke sound solutions tailored to their unique needs.
+          I am a composer, sound designer and programmer with over a decade of experience in the intersection of music, sound, and technology. My expertise lies in audio production and composition. My portfolio includes composing for various media forms such as film, TV, video games, and spoken word. I have had the privilege to work with clients like BigRock, Cairn Housing Association, and Blackwood Homes and Care, creating bespoke sound solutions tailored to their unique needs.
         </p>
 
         <p>

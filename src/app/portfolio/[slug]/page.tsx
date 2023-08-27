@@ -33,9 +33,9 @@ function PortfolioItem({ params }: { params: { slug: string } }) {
           </div>
         </div>
         <article className="content">
-          <div className="abstract">{post.abstract}</div>
+          <div className="abstract"><p>{post.abstract}</p></div>
           <time dateTime={post.date} className="mb-1 text-xs text-gray-600">
-            {format(parseISO(post.date), 'LLLL d, yyyy')}
+            <p>{format(parseISO(post.date), 'LLLL d, yyyy')}</p>
           </time>
           <MDXContent />
         </article>

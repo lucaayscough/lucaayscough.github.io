@@ -1,0 +1,9 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "mdx",
+            "scheme": "file",
+            "pattern": "portfolio/send_me_home.mdx"
+        }
+    ]
+}
