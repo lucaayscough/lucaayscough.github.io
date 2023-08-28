@@ -18,7 +18,7 @@ export default function Media() {
                 priority
                 src={`/images/media/${item.title.replace(/ /g, '_').toLowerCase()}.png`}
                 height={1}
-                width={384}
+                width={768}
                 alt={item.title}
               />
             </Link>

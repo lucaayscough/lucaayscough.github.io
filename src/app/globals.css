@@ -47,9 +47,9 @@ main {
   padding-right: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 976px) {
   main {
-      width: 768px;
+      width: 976px;
   }
 }
 
