@@ -48,7 +48,7 @@ export default function Footer() {
         <Link href="https://linkedin.com/in/lucaayscough" target="_blank">
           <Image
             priority
-            src="/images/socials/Linkedin.svg"
+            src="/images/socials/linkedin.svg"
             height={1}
             width={40}
             alt="Linkedin"
