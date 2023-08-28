@@ -41,8 +41,8 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  flex: 1;
 }
 
 @media (min-width: 768px) {
@@ -70,4 +70,5 @@ a:hover {
 
 p {
   padding: 1rem;
+  max-width: 70ch;
 }
