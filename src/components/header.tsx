@@ -1,10 +1,9 @@
 import Link from "next/link"
 import Image from "next/image"
-import "./header.css"
 
 function Header() {
   return (
-    <header className="flex flex-col items-center justify-center p-20 pb-12 gap-8">
+    <header className="flex flex-col items-center justify-center px-8 pb-12 pt-20 gap-8">
       <div>
         <Image
           priority
@@ -15,9 +14,9 @@ function Header() {
         />
       </div>
 
-      <div className="redBar"></div>
+      <div className="w-full h-1 bg-red"></div>
       
-      <nav className="navBar">
+      <nav className="flex flex-col md:flex-row text-lg font-light gap-4">
         <Link className="headerLink" href="/">ABOUT</Link>
         <Link className="headerLink" href="/media">MEDIA</Link>
         {/* <Link className="headerLink" href="/music">MUSIC</Link> */}
