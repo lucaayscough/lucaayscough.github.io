@@ -23,7 +23,7 @@ export default function Media() {
               />
             </Link>
             <div className="p-4">
-              <div className="">{item.role}</div>
+              <div className="">{item.role} </div>
               <div className="font-light">{item.title} ({format(parseISO(item.date), 'yyyy')})</div>
             </div>
           </div>

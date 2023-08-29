@@ -16,6 +16,7 @@ export const Portfolio = defineDocumentType(() => ({
     role: { type: 'string', required: true }, 
     date: { type: 'date', required: true },
     client: { type: 'string', required: true },
+    media_type: { type: 'string', required: true},
     link: { type: 'string', required: true },
   },
   computedFields: {
