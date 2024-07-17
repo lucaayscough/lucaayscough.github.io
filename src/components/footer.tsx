@@ -58,7 +58,7 @@ export default function Footer() {
 
       <div className="text-center">
         <div>© Luca Ayscough (2023). All rights reserved.</div>
-        <div><Link href="mailto:lucaayscough@gmail.com">lucaayscough@gmail.com</Link></div>
+        <div><Link href="mailto:contact@lucaayscough.com">contact@lucaayscough.com</Link></div>
       </div>
     </footer>
   )

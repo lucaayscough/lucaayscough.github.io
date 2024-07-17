@@ -21,7 +21,7 @@ function Header() {
         <Link className="headerLink" href="/media">MEDIA</Link>
         {/* <Link className="headerLink" href="/music">MUSIC</Link> */}
         <Link className="headerLink" target="_blank" href="https://lucaayscough.gumroad.com">SOFTWARE</Link>
-        <Link className="headerLink" href="mailto:lucaayscough@gmail.com">CONTACT</Link>
+        <Link className="headerLink" href="mailto:contact@lucaayscough.com">CONTACT</Link>
       </nav>
     </header>
   )
